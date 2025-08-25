@@ -1,0 +1,70 @@
+{
+  "name": "web3-wallet-demo",
+  "version": "1.0.0",
+  "description": "Professional Web3 wallet integration demo with MetaMask and ethers.js on Sepolia testnet",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "clean": "rm -rf .next dist",
+    "analyze": "ANALYZE=true npm run build"
+  },
+  "keywords": [
+    "web3",
+    "ethereum",
+    "metamask",
+    "wallet",
+    "dapp",
+    "sepolia",
+    "blockchain",
+    "nextjs",
+    "typescript",
+    "ethers"
+  ],
+  "author": {
+    "name": "Sajid Rajput",
+    "email": "sajidrajput01.and@gmail.com",
+    "url": "https://github.com/TalhaNisarMughal"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TalhaNisarMughal/web3-wallet-demo"
+  },
+  "bugs": {
+    "url": "https://github.com/TalhaNisarMughal/web3-wallet-demo/issues"
+  },
+  "homepage": "https://github.com/TalhaNisarMughal/web3-wallet-demo#readme",
+  "dependencies": {
+    "ethers": "^6.9.0",
+    "next": "15.5.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.2.0",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.19.0",
+    "@typescript-eslint/parser": "^8.19.0",
+    "eslint": "^9.18.0",
+    "eslint-config-next": "15.5.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "postcss": "^8.5.1",
+    "prettier": "^3.4.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
